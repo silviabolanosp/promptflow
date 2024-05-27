@@ -124,6 +124,3 @@ nodes:
     not_relevant: ${check_relevance_score.output}
     refuse_prompt: ${refuse_to_answer.output}
   use_variants: false
-node_variants: {}
-environment:
-  python_requirements_txt: requirements.txt
