@@ -30,7 +30,7 @@ nodes:
     frequency_penalty: 0
     question: ${inputs.question}
     chat_history: ${inputs.chat_history}
-  connection: connection_name
+  connection: open_ai_connection_sbp
   api: chat
   use_variants: false
 - name: get_wiki_url
