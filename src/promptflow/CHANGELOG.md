@@ -1,6 +1,9 @@
 # Release History
-
 ## v1.12.0 (Upcoming)
+
+### Bugs fixed
+- [promptflow-core] Fix ChatUI can't work in docker container when running image build with `pf flow build`.
+- [promptflow-core] Fix [#3355](https://github.com/microsoft/promptflow/issues/3355) that IndexError is raised when generator is used in a flow and the flow is called inside another flow.
 
 ### Improvements
 - [promptflow-devkit] Add retry logic when uploading run details to cloud.
