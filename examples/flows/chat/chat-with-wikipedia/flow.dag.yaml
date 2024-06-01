@@ -30,7 +30,7 @@ nodes:
     frequency_penalty: 0
     question: ${inputs.question}
     chat_history: ${inputs.chat_history}
-  connection: open_ai_connection_sbp
+  connection: connection_sbp
   api: chat
   use_variants: false
 - name: get_wiki_url
@@ -70,5 +70,5 @@ nodes:
     contexts: ${process_search_result.output}
     response_format:
       type: text
-  connection: open_ai_connection
+  connection: connection_sbp
   api: chat
